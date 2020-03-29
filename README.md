@@ -9,8 +9,9 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
     - value from file injection
 - bean life cycle
   - default singleton scope
-    - return the same bean memory reference everytime getBean is called
+    - return the same bean memory reference each time getBean is called
   - prototype
+    - alocate new memory for a new bean for each getBean call
   - request
   - session
   - global-session
