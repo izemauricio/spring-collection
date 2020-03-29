@@ -5,3 +5,5 @@ Small projects using the Spring 5 framework for practice
 - inversion of control
 - spring dependency injection
 - spring object factory through xml config file
+-- constructor dependency injection
+- settler injection
