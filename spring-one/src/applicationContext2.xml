@@ -11,7 +11,7 @@
 	</bean>
 
 	<bean id="myCoach" class="com.ize.springone.TrackCoach"
-		scope="prototype" init-method="startup" destroy-method="shutdown">
+		scope="singleton" init-method="startup" destroy-method="shutItDown">
 		<constructor-arg ref="myFortune"></constructor-arg>
 	</bean>
 

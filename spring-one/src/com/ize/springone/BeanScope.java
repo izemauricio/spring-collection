@@ -10,7 +10,9 @@ public class BeanScope {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext2.xml");
 		Coach coach1 = ctx.getBean("myCoach", Coach.class);
 		Coach coach2 = ctx.getBean("myCoach", Coach.class);
+
 		System.out.println(coach1 == coach2);
+		ctx.close();
 	}
 
 }

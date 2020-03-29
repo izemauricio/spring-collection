@@ -6,7 +6,7 @@ public class TrackCoach implements Coach {
 		System.out.println("start up");
 	}
 
-	public void shutdown() {
+	public void shutItDown() {
 		System.out.println("shutdown");
 	}
 
