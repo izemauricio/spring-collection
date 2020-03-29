@@ -12,6 +12,7 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
     - return the same bean memory reference each time getBean is called
   - prototype
     - alocate new memory for a new bean for each getBean call
+    - spring do not call destroy-method when using prototype scope
   - request
   - session
   - global-session
