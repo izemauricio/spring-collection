@@ -22,3 +22,7 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
 - init and destroy
   - init-method
   - destroy-method
+
+## spring-annotation
+- @component("beanId")
+- @component for auto id from class name
