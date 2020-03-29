@@ -8,8 +8,10 @@ public class HelloSpring {
 		// load spring application context (container)
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-		// get object from spring object factory
+		// get bean from spring object factory using interface
 		// Coach bc = context.getBean("myCricketCoach", Coach.class);
+
+		// get bean from spring object factory using class
 		CricketCoach bc = context.getBean("myCricketCoach", CricketCoach.class);
 
 		// call methods of the bean
