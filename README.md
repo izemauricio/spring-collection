@@ -10,3 +10,7 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
 - bean life cycle
   - default singleton scope
     - return the same bean memory reference everytime getBean is called
+  - prototype
+  - request
+  - session
+  - global-session
