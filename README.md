@@ -7,7 +7,8 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
     - setter method dependency injection
     - static value injection
     - value from file injection
-- bean life cycle
+### bean life cycle
+- scope
   - default singleton scope
     - return the same bean memory reference each time getBean is called
   - prototype
@@ -16,3 +17,6 @@ Small j2ee/spring projects for practice using Java SDK 8, Spring 5 framework and
   - request
   - session
   - global-session
+- init and destroy
+  - init-method
+  - destroy-method
