@@ -2,6 +2,14 @@ package com.ize.springone;
 
 public class TrackCoach implements Coach {
 
+	public void startup() {
+		System.out.println("start up");
+	}
+
+	public void shutdown() {
+		System.out.println("shutdown");
+	}
+
 	private FortuneService fortuneService;
 
 	public TrackCoach(FortuneService fortuneService) {
