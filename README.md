@@ -6,4 +6,4 @@ Small projects using the Spring 5 framework for practice
 - spring dependency injection
 - spring object factory through xml config file
   - constructor dependency injection
-- settler injection
+- setter injection
